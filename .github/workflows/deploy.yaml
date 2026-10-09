@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - ice-cream-dataops  # Make sure this matches default_organization_dir in cdf.toml
+      - ice-cream-dataops/**  # Make sure this matches default_organization_dir in cdf.toml
   workflow_dispatch:
     inputs:
       environment:
