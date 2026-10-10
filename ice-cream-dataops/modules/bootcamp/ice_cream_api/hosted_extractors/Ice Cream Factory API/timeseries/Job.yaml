@@ -6,6 +6,6 @@ format:
   encoding: utf8
   mappingId: ICAPI Time series
 config:
-  interval: 1h
+  interval: 5m
   path: /timeseries/oee
   method: get
